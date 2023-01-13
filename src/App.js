@@ -11,11 +11,7 @@ import ToggleOffIcon from '@mui/icons-material/ToggleOff';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme, createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-
-
 const ColorModeContext = React.createContext({ toggleColorMode: () => { } });
-
-
 function App() {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
   const theme = useTheme(prefersDarkMode);
