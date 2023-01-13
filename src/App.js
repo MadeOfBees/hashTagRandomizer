@@ -42,7 +42,7 @@ function App() {
         </div>
         <BottomNavigation showLabels className='DownNav'>
           <BottomNavigationAction component={Link} to="/AboutUs" label="About us" icon={<ContactPageIcon />} />
-          <BottomNavigationAction component={Link} to="/hashTagRandomizer" label="ArrayGun" icon={<HomeIcon />} />
+          <BottomNavigationAction component={Link} to="/hashTagRandomizer" label="hashTagRandomizer" icon={<HomeIcon />} />
           <BottomNavigationAction onClick={colorMode.toggleColorMode} label=" Toggle Darkmode" icon={theme.palette.mode === 'dark' ? <ToggleOffIcon /> : <ToggleOnIcon />} />
         </BottomNavigation>
       </Router>

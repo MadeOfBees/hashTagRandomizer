@@ -47,10 +47,10 @@ function AppLogic() {
     }
     return (
         <div>
-            <h1>hashTagsHere:</h1>
+            <h1>List of hashtags goes here:</h1>
             <Box sx={{ width: '100%' }}>
                 <Stack spacing={2} className="NoDoubtPut">
-                    <TextField multiline rows={6} id="outlined-basic" label="UserInput here" variant="outlined" onChange={newInput} />
+                    <TextField multiline rows={6} id="outlined-basic" label="MadeOfBees" variant="outlined" onChange={newInput} />
                     <Item><Button onClick={randHash}>Click to randomize</Button></Item>
                 </Stack>
             </Box>
